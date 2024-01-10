@@ -46,10 +46,10 @@ jobs:
           if [ "${{ steps.check-rc-branch.outputs.stdout }}" == "Release candidate branch does not exist." ]; then
             git checkout -b release-candidate
             git push origin release-candidate
+          else
+            echo "Release candidate branch exists"
+            git checkout release-candidate
+            git pull origin development
+            git push origin release-candidate
           fi
-
-      - name: Pull changes from development to release-candidate
-        run: |
-          git checkout release-candidate
-          git pull origin development
-          git push origin release-candidate
+          
