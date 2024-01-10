@@ -44,6 +44,7 @@ jobs:
       - name: Create release-candidate branch if not exists
         run: |
           if [ "${{ steps.check-rc-branch.outputs.stdout }}" == "Release candidate branch does not exist." ]; then
+            echo "Release candidate branch doesn't exist"
             git checkout -b release-candidate
             git push origin release-candidate
           else
