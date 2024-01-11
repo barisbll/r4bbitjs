@@ -7,7 +7,7 @@ settings:
 dependencies:
   amqp-connection-manager:
     specifier: ^4.1.13
-    version: 4.1.13(amqplib@0.10.3)
+    version: 4.1.14(amqplib@0.10.3)
   chalk:
     specifier: ^4.1.2
     version: 4.1.2
@@ -1548,8 +1548,8 @@ packages:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
 
-  /amqp-connection-manager@4.1.13(amqplib@0.10.3):
-    resolution: {integrity: sha512-riL5EOlXDlBY4VTTfi6lgy4lwrDbtncQQ9C4SdgxGV6PZ8vgBsNmiKnkxGLvbppDRZ70522glxIc1ep+9Xd/Xw==}
+  /amqp-connection-manager@4.1.14(amqplib@0.10.3):
+    resolution: {integrity: sha512-1km47dIvEr0HhMUazqovSvNwIlSvDX2APdUpULaINtHpiki1O+cLRaTeXb/jav4OLtH+k6GBXx5gsKOT9kcGKQ==}
     engines: {node: '>=10.0.0', npm: '>5.0.0'}
     peerDependencies:
       amqplib: '*'
