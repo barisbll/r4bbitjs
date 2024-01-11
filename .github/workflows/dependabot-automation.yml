@@ -35,7 +35,7 @@ jobs:
         run: |
           git fetch origin
           if git show-ref --quiet refs/remotes/origin/release-candidate; then
-            echo "release-candidate=Release candidate branch exists." >> "$GITHUB_OUTPUT"
+            echo "release-candidate=Release candidate branch exists." >> $GITHUB_OUTPUT
           else
             echo "Release candidate branch does not exist."
           fi
@@ -44,11 +44,13 @@ jobs:
       - name: Create release-candidate branch if not exists
         run: |
           if [ "${{ steps.check-rc-branch.outputs.release-candidate }}" == "Release candidate branch does not exist." ]; then
-            echo "Release candidate branch doesn't exist" >> $GITHUB_OUTPUT
+            echo "Release candidate branch doesn't exist" 
+            echo "${{join(steps.check-rc-branch.outputs.*, '\n')}}" 
             git checkout -b release-candidate
             git push origin release-candidate
           else
-            echo "Release candidate branch exists" >> $GITHUB_OUTPUT
+            echo "Release candidate branch exists" 
+            echo "${{join(steps.check-rc-branch.outputs.*, '\n')}}" 
             git checkout release-candidate
             git pull origin development
             git push origin release-candidate
