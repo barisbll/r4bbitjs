@@ -40,6 +40,8 @@ jobs:
             echo "Release candidate branch exists" 
             git checkout release-candidate
             git config pull.rebase false
+            git config --global user.name "beesafe-dependabot-automerge"
+            git config --global user.email "beesafe-dependabot-automerge@test.com"
             git pull origin dev
             git push origin release-candidate
           else
