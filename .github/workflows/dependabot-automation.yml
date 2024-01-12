@@ -37,7 +37,7 @@ jobs:
           if git show-ref --quiet refs/remotes/origin/release-candidate; then
             echo "Release candidate branch exists" 
             git checkout release-candidate
-            git pull origin development
+            git pull origin dev
             git push origin release-candidate
           else
             echo "Release candidate branch does not exist" 

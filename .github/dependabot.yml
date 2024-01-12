@@ -4,6 +4,6 @@ updates:
     directory: '/'
     schedule:
       interval: 'daily'
-      time: "13:58"
+      time: "14:04"
       # Use Poland Standard Time (UTC +01:00)
       timezone: "Europe/Warsaw"
