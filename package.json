@@ -54,7 +54,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "events": "^3.3.0",
     "lodash": "^4.11.2",
-    "nanoid": "^5.0.4",
+    "nanoid": "^3.3.6",
     "nodemon": "^2.0.22",
     "pino": "^8.14.1",
     "pino-pretty": "^10.0.0",
