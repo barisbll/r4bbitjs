@@ -51,7 +51,7 @@ dependencies:
 devDependencies:
   '@changesets/cli':
     specifier: ^2.26.1
-    version: 2.27.2
+    version: 2.27.3
   '@types/amqplib':
     specifier: ^0.10.1
     version: 0.10.5
@@ -507,8 +507,8 @@ packages:
       '@changesets/types': 6.0.0
     dev: true
 
-  /@changesets/cli@2.27.2:
-    resolution: {integrity: sha512-6/kADjKMOrlLwNr/Y5HAq7T9oGOA2Lq5A59AGtwQCCiXuSGp4EgszzdJFeBiF8pdz7Wn1HaLzSUBhAaNToEJqg==}
+  /@changesets/cli@2.27.3:
+    resolution: {integrity: sha512-ve/VpWApILlSs8cr0okNx5C2LKRawI9XZgvfmf58S8sar2nhx5DPJREFXYZBahs0FeTfvH0rdVl+nGe8QF45Ig==}
     hasBin: true
     dependencies:
       '@babel/runtime': 7.22.5
