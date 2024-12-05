@@ -56,7 +56,7 @@ importers:
         version: 2.27.10
       '@types/amqplib':
         specifier: ^0.10.1
-        version: 0.10.5
+        version: 0.10.6
       '@types/jest':
         specifier: ^29.5.2
         version: 29.5.14
@@ -772,8 +772,8 @@ packages:
   '@tsconfig/node16@1.0.4':
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
 
-  '@types/amqplib@0.10.5':
-    resolution: {integrity: sha512-/cSykxROY7BWwDoi4Y4/jLAuZTshZxd8Ey1QYa/VaXriMotBDoou7V/twJiOSHzU6t1Kp1AHAUXGCgqq+6DNeg==}
+  '@types/amqplib@0.10.6':
+    resolution: {integrity: sha512-vQLVypBS1JQcfTXhl1Td1EEeLdtb+vuulOb4TrzYiLyP2aYLMAEzB3pNmEA0jBm0xIXu946Y7Xwl19Eidl32SQ==}
 
   '@types/babel__core@7.20.1':
     resolution: {integrity: sha512-aACu/U/omhdk15O4Nfb+fHgH/z3QsfQzpnvRZhYhThms83ZnAOZz7zZAWO7mn2yyNQaA4xTO8GLK3uqFU4bYYw==}
@@ -3540,7 +3540,7 @@ snapshots:
 
   '@tsconfig/node16@1.0.4': {}
 
-  '@types/amqplib@0.10.5':
+  '@types/amqplib@0.10.6':
     dependencies:
       '@types/node': 22.10.1
 
