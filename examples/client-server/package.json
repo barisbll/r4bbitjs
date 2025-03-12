@@ -13,6 +13,6 @@
   "dependencies": {
     "r4bbit": "^1.0.4",
     "ts-node": "^10.9.1",
-    "tsup": "^7.1.0"
+    "tsup": "^8.3.5"
   }
 }
