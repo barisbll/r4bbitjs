@@ -49,7 +49,7 @@ importers:
         version: 13.0.0
       zod:
         specifier: ^4.0.2
-        version: 4.1.7
+        version: 4.1.8
     devDependencies:
       '@changesets/cli':
         specifier: ^2.26.1
@@ -2906,8 +2906,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@4.1.7:
-    resolution: {integrity: sha512-6qi6UYyzAl7W9uV29KvcSFXqK4QCYNYUz2YASPNBWpJE1RY6R1nArmmFPgGY/CBYWzpeMw3EOER+DR9a05O4IA==}
+  zod@4.1.8:
+    resolution: {integrity: sha512-5R1P+WwQqmmMIEACyzSvo4JXHY5WiAFHRMg+zBZKgKS+Q1viRa0C1hmUKtHltoIFKtIdki3pRxkmpP74jnNYHQ==}
 
 snapshots:
 
@@ -6013,4 +6013,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@4.1.7: {}
+  zod@4.1.8: {}
