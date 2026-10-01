@@ -10,7 +10,7 @@ importers:
     dependencies:
       amqp-connection-manager:
         specifier: ^5.0.0
-        version: 5.0.0(amqplib@2.0.1)
+        version: 5.0.0(amqplib@2.2.0)
       axios:
         specifier: ^1.2.1
         version: 1.20.0(debug@4.4.3(supports-color@5.5.0))(supports-color@5.5.0)
@@ -74,7 +74,7 @@ importers:
         version: 8.70.1(eslint@10.11.0(supports-color@5.5.0))(supports-color@5.5.0)(typescript@6.0.3)
       amqplib:
         specifier: ^2.0.1
-        version: 2.0.1
+        version: 2.2.0
       eslint:
         specifier: ^10.0.0
         version: 10.11.0(supports-color@5.5.0)
@@ -1287,8 +1287,8 @@ packages:
     peerDependencies:
       amqplib: '*'
 
-  amqplib@2.0.1:
-    resolution: {integrity: sha512-a3P2MgfCf9nzVis12VxWEn0dS6hcqve7dlEAhXDtIWR27BlhtMkILOc+H9aeHjDi6i6r94dYKc2Kx2OFe3avvg==}
+  amqplib@2.2.0:
+    resolution: {integrity: sha512-VifzN9aHs/Q3zTruVHXh2yCisQyXexBN91CQ2E5iSyUKyNjH6ilYhJGte5AXZH/Bj1PaH7SwPhyuSf6Msd2udw==}
     engines: {node: '>=18'}
 
   ansi-escapes@4.3.2:
@@ -4148,12 +4148,12 @@ snapshots:
       json-schema-traverse: 0.4.1
       uri-js: 4.4.1
 
-  amqp-connection-manager@5.0.0(amqplib@2.0.1):
+  amqp-connection-manager@5.0.0(amqplib@2.2.0):
     dependencies:
-      amqplib: 2.0.1
+      amqplib: 2.2.0
       promise-breaker: 6.0.0
 
-  amqplib@2.0.1: {}
+  amqplib@2.2.0: {}
 
   ansi-escapes@4.3.2:
     dependencies:
